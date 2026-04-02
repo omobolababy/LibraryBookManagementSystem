@@ -23,9 +23,12 @@
 
     public void Display()
     {
+        Console.WriteLine("-------------------------");
         Console.WriteLine($"\nTitle: {Title}");
         Console.WriteLine($"Author: {Author}");
         Console.WriteLine($"ISBN: {ISBN}");
-        Console.WriteLine($"Available: {(IsAvailable ? "Yes" : "No")}");
+        Console.WriteLine($"Available: {(IsAvailable)}");
+        Console.WriteLine($"Created at: {DateTime.Now}");
+        Console.WriteLine("-------------------------");
     }
 }
