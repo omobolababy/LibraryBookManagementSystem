@@ -1,0 +1,14 @@
+C:\Users\USER\RiderProjects\LibraryServiceManagement\bin\Debug\net8.0\LibraryServiceManagement.exe
+C:\Users\USER\RiderProjects\LibraryServiceManagement\bin\Debug\net8.0\LibraryServiceManagement.deps.json
+C:\Users\USER\RiderProjects\LibraryServiceManagement\bin\Debug\net8.0\LibraryServiceManagement.runtimeconfig.json
+C:\Users\USER\RiderProjects\LibraryServiceManagement\bin\Debug\net8.0\LibraryServiceManagement.dll
+C:\Users\USER\RiderProjects\LibraryServiceManagement\bin\Debug\net8.0\LibraryServiceManagement.pdb
+C:\Users\USER\RiderProjects\LibraryServiceManagement\obj\Debug\net8.0\LibraryServiceManagement.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\USER\RiderProjects\LibraryServiceManagement\obj\Debug\net8.0\LibraryServiceManagement.AssemblyInfoInputs.cache
+C:\Users\USER\RiderProjects\LibraryServiceManagement\obj\Debug\net8.0\LibraryServiceManagement.AssemblyInfo.cs
+C:\Users\USER\RiderProjects\LibraryServiceManagement\obj\Debug\net8.0\LibraryServiceManagement.csproj.CoreCompileInputs.cache
+C:\Users\USER\RiderProjects\LibraryServiceManagement\obj\Debug\net8.0\LibraryServiceManagement.dll
+C:\Users\USER\RiderProjects\LibraryServiceManagement\obj\Debug\net8.0\refint\LibraryServiceManagement.dll
+C:\Users\USER\RiderProjects\LibraryServiceManagement\obj\Debug\net8.0\LibraryServiceManagement.pdb
+C:\Users\USER\RiderProjects\LibraryServiceManagement\obj\Debug\net8.0\LibraryServiceManagement.genruntimeconfig.cache
+C:\Users\USER\RiderProjects\LibraryServiceManagement\obj\Debug\net8.0\ref\LibraryServiceManagement.dll
