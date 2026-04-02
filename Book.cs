@@ -1,35 +1,31 @@
-﻿namespace LibraryBookManagementSystem
+﻿public class Book
 {
-    public class Book
+    public string Title { get; set; }
+    public string Author { get; set; }
+    public string ISBN { get; private set; }
+    public bool IsAvailable { get; set; }
+
+    public Book(string title, string author)
     {
-        public string Title { get; set; }
-        public string Author { get; set; }
-        public string ISBN { get; private set; }
-        public bool IsAvailable { get; set; }
-        public DateTime CreatedAt { get; private set; }
+        Title = title;
+        Author = author;
+        ISBN = GenerateISBN();
+        IsAvailable = true;
+    }
 
-        private static int counter = 10000;
+    static int counter = 10000;
 
-        public Book(string title, string author)
-        {
-            Title = title;
-            Author = author;
-            counter++;
-            ISBN = "ISBN/" + counter;
+    string GenerateISBN()
+    {
+        counter++;
+        return "ISBN/" + counter;
+    }
 
-            IsAvailable = true;
-            CreatedAt = DateTime.Now;
-        }
-
-        public void Display()
-        {
-            Console.WriteLine("----------------------------------");
-            Console.WriteLine($"Title: {Title}");
-            Console.WriteLine($"Author: {Author}");
-            Console.WriteLine($"ISBN: {ISBN}");
-            Console.WriteLine($"Available: {IsAvailable}");
-            Console.WriteLine($"Created At: {CreatedAt}");
-            Console.WriteLine("----------------------------------");
-        }
+    public void Display()
+    {
+        Console.WriteLine($"\nTitle: {Title}");
+        Console.WriteLine($"Author: {Author}");
+        Console.WriteLine($"ISBN: {ISBN}");
+        Console.WriteLine($"Available: {(IsAvailable ? "Yes" : "No")}");
     }
 }

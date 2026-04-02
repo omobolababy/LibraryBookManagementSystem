@@ -12,3 +12,4 @@ C:\Users\USER\RiderProjects\LibraryServiceManagement\obj\Debug\net8.0\refint\Lib
 C:\Users\USER\RiderProjects\LibraryServiceManagement\obj\Debug\net8.0\LibraryServiceManagement.pdb
 C:\Users\USER\RiderProjects\LibraryServiceManagement\obj\Debug\net8.0\LibraryServiceManagement.genruntimeconfig.cache
 C:\Users\USER\RiderProjects\LibraryServiceManagement\obj\Debug\net8.0\ref\LibraryServiceManagement.dll
+C:\Users\USER\RiderProjects\LibraryServiceManagement\obj\Debug\net8.0\LibraryServiceManagement.sourcelink.json
